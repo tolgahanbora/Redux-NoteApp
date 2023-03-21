@@ -1,6 +1,6 @@
 import Header from './components/Header';
-import Textarea from './components/textarea';
-import ContentList from './components/contentList';
+import Main from './components/Textarea';
+import ContentList from './components/Contentlist';
 import './App.css';
 
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <Textarea />
+      <Main />
       <ContentList/>
     </div>
   );
